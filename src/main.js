@@ -8,7 +8,6 @@ function setCardType(type) {
   const colors = {
     visa: ["#436D99", "#2D5F2"],
     mastercard: ["#DF6F29", "#C69347"],
-    americanexpress: ["e8eaeb", "adb3b5"],
     default: ["black", "yellow"],
   }
   ccBgColor01.setAttribute("fill", colors[type][0])
@@ -16,4 +15,4 @@ function setCardType(type) {
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
 
-setCardType("default")
+setCardType("mastercard")
