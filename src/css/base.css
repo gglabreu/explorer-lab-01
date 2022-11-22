@@ -50,3 +50,7 @@ body {
   display: flex;
   align-items: center;
 }
+
+button:hover {
+  color: #202024;
+}
